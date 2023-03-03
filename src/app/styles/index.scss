@@ -1,0 +1,20 @@
+@import "normalize";
+@import "theme/dark";
+@import "theme/light";
+@import "variables/global.scss";
+
+.app {
+	font: var(--font-m);
+
+	background-color: var(--background-color);
+	color: var(--primary-color);
+	min-height: 100vh;
+}
+
+.content {
+	display: flex;
+}
+.page-wrapper {
+	flex: 1;
+	padding: 20px;
+}
