@@ -2,6 +2,7 @@ import { BuildOptions } from "./types/config";
 import HTMLWebpackPlugin from "html-webpack-plugin";
 import webpack, { WebpackPluginInstance } from "webpack";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
+import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 
 export const buildPlugins = (
 	options: BuildOptions
@@ -20,5 +21,7 @@ export const buildPlugins = (
 		new webpack.DefinePlugin({
 			__IS_DEV__: JSON.stringify(isDev),
 		}),
+		new webpack.HotModuleReplacementPlugin(),
+		new ReactRefreshPlugin(),
 	];
 };
