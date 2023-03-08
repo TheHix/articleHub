@@ -7,6 +7,7 @@ module.exports = {
     "plugin:react/recommended",
     "airbnb",
     "plugin:prettier/recommended",
+    "plugin:i18next/recommended",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -16,7 +17,7 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["react", "@typescript-eslint", "prettier"],
+  plugins: ["react", "@typescript-eslint", "prettier", "i18next"],
   rules: {
     quotes: ["error", "double"],
     "react/jsx-indent": ["error", 2],
@@ -46,6 +47,7 @@ module.exports = {
         endOfLine: "auto",
       },
     ],
+    "i18next/no-literal-string": ["error", { markupOnly: true }],
   },
   globals: {
     __IS_DEV__: true,

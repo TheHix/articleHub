@@ -1,18 +1,18 @@
 .navbar {
-	width: 100%;
-	height: var(--navbar-height);
-	background-color: var(--secondary-background-color);
-	padding: 20px;
-	display: flex;
-	align-items: center;
+  width: 100%;
+  height: var(--navbar-height);
+  background-color: var(--secondary-background-color);
+  padding: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .links {
-	margin-left: auto;
-	display: flex;
-	align-items: center;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
 
-	& > li:not(:last-child) {
-		margin-right: 10px;
-	}
+  & > li:not(:last-child) {
+    margin-right: 10px;
+  }
 }

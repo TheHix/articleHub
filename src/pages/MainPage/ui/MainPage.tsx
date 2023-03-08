@@ -6,5 +6,4 @@ const MainPage = () => {
 
   return <div>{t("главная страница")}</div>;
 };
-
 export default MainPage;
