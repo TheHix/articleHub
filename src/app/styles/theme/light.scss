@@ -2,8 +2,8 @@
   --background-color: #fff;
   --secondary-background-color: #24292f;
   --inverted-background-color: #212121;
-  --primary-color: #212121;
+  --primary-color: var(--dark-color);
   --secondary-color: #757575;
-  --inverted-primary-color: #fff;
+  --inverted-primary-color: var(--light-color);
   --inverted-secondary-color: #bdbdbd;
 }

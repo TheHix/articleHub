@@ -1,13 +1,15 @@
 import { FC } from "react";
 import { Link, LinkProps } from "react-router-dom";
 
-import { classNames } from "@/shared/lib/ClassNames/classNames";
+import { classNames } from "@/shared/lib/classNames/classNames";
 
 import styles from "./AppLink.module.scss";
 
 export enum AppLinkTheme {
   DEFAULT = "default",
   INVERTED = "inverted",
+  LIGHT = "light",
+  DARK = "dark",
 }
 
 interface AppLinkProps extends LinkProps {

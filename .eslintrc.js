@@ -49,6 +49,7 @@ module.exports = {
       },
     ],
     "i18next/no-literal-string": ["error", { markupOnly: true }],
+    "react/self-closing-comp": "warn",
   },
   globals: {
     __IS_DEV__: true,
