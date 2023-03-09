@@ -1,4 +1,4 @@
-type Modifications = Record<string, string | boolean>;
+type Modifications = Record<string, string | boolean | undefined>;
 
 export const classNames = (
   baseClass: string,

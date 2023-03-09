@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 
-import { classNames } from "@/shared/lib/ClassNames/ClassNames";
+import { classNames } from "@/shared/lib/ClassNames/classNames";
 import { Navbar } from "@/widgets/Navbar";
 import { Sidebar } from "@/widgets/Sidebar";
 
@@ -13,8 +13,8 @@ const App = () => {
 
   return (
     <div className={classNames("app", [theme], {})}>
-      <Navbar />
       <Suspense fallback="">
+        <Navbar />
         <div className="content">
           <Sidebar />
           <AppRouter />

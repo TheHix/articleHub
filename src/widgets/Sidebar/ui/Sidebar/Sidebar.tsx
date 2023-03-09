@@ -1,6 +1,6 @@
 import { FC, useState } from "react";
 
-import { classNames } from "@/shared/lib/ClassNames/ClassNames";
+import { classNames } from "@/shared/lib/ClassNames/classNames";
 import { LanguageSwitcher } from "@/widgets/LanguageSwitcher/LanguageSwitcher";
 import { ThemeSwitcher } from "@/widgets/ThemeSwitcher/ui/ThemeSwitcher";
 

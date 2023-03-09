@@ -1,6 +1,6 @@
 import { ButtonHTMLAttributes, FC } from "react";
 
-import { classNames } from "@/shared/lib/ClassNames/ClassNames";
+import { classNames } from "@/shared/lib/ClassNames/classNames";
 
 import styles from "./Button.module.scss";
 
