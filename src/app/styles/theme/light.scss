@@ -1,9 +1,13 @@
 .app.light {
-  --background-color: #fff;
-  --secondary-background-color: #24292f;
+  //bg
+  --primary-background-color: #fafafa;
+  --secondary-background-color: #fff;
   --inverted-background-color: #212121;
-  --primary-color: var(--dark-color);
-  --secondary-color: #757575;
-  --inverted-primary-color: var(--light-color);
-  --inverted-secondary-color: #bdbdbd;
+  --navbar-background-color: hsla(0, 0%, 100%, 0.8);
+  --sidebar-background-color: var(--navbar-background-color);
+  //text colors
+  --primary-color: rgba(0, 0, 0, 0.87);
+  --secondary-color: rgba(0, 0, 0, 0.6);
+  --inverted-primary-color: #f5f5f5;
+  --inverted-secondary-color: hsla(0, 0%, 100%, 0.64);
 }

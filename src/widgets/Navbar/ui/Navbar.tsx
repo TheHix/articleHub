@@ -17,12 +17,12 @@ export const Navbar: FC<NavbarProps> = ({ className }) => {
     <nav className={classNames(styles.navbar, [className])}>
       <ul className={styles.links}>
         <li>
-          <AppLink to="/" theme={AppLinkTheme.LIGHT}>
+          <AppLink to="/" theme={AppLinkTheme.DEFAULT}>
             {t("Main page")}
           </AppLink>
         </li>
         <li>
-          <AppLink to="/about" theme={AppLinkTheme.LIGHT}>
+          <AppLink to="/about" theme={AppLinkTheme.DEFAULT}>
             {t("About as")}
           </AppLink>
         </li>
